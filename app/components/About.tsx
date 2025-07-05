@@ -1,17 +1,17 @@
 'use client';
 
-export default function About() {
+export default function Hero() {
   return (
-    <section className="p-10 bg-white text-center">
-      <h2 className="text-3xl font-bold mb-6">Meet Dr. Serena Blake</h2>
-    <img
-        src="/dr-serena.png"
-        alt="Dr. Serena"
-        className="w-40 h-40 mx-auto rounded-full border-4 border-blue-300 mb-4"
-    />
-      <p className="text-gray-700 max-w-2xl mx-auto text-lg">
-        I’m Dr. Serena Blake — a licensed therapist who helps people heal from anxiety, trauma, and burnout. I believe therapy should be warm, empowering, and practical. I offer virtual sessions tailored to your needs and goals.
+    <section className="h-screen bg-gradient-to-br from-blue-100 to-blue-300 flex flex-col items-center justify-center text-center px-4">
+      <h1 className="text-5xl font-bold mb-4 text-blue-900">
+        Helping You Heal, Grow & Thrive
+      </h1>
+      <p className="text-xl mb-6 text-blue-700 max-w-2xl">
+        Online therapy with Dr. Serena Blake — compassionate care from the comfort of your home.
       </p>
+      <button className="bg-blue-700 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-800 transition">
+        Book a Free Consult
+      </button>
     </section>
   );
 }
